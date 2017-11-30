@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>网易云音乐官方网站</title>
+
+<link type="text/css" rel="stylesheet" href="./CSS.css">
+
+<script type="text/javascript" src="./javascript.js">
+</script>
+
+</head>
+<body>
+<div class="background">
+	<div class="top-box">
+		<div class="top1">
+		<h1 class="name">
+			<a href="#">网易云音乐</a>
+		</h1>
+		<ul class="top1_ul">
+			
+			<li class="top1_li1" id="top1_li1" onmouseover=color1(); onmouseout=colhidden1();>
+				<span><a href="#">发现音乐</a></span>
+			</li>
+			<li class="top1_li1" id="top1_li2" onmouseover=color2(); onmouseout=colhidden2();>
+				<span><a href="#">我的音乐</a></span>
+			</li>
+			<li class="top1_li2" id="top1_li3" onmouseover=color3(); onmouseout=colhidden3();>
+				<span><a  href="#">朋友</a></span>
+			</li>
+			<li class="top1_li2" id="top1_li4" onmouseover=color4(); onmouseout=colhidden4();>
+				<span><a  href="#">商城</a></span>
+			</li>
+			<li class="top1_li3" id="top1_li5" onmouseover=color5(); onmouseout=colhidden5();>
+				<span><a href="#">音乐人</a></span>
+			</li>
+			<li class="top1_li4" id="top1_li6" onmouseover=color6(); onmouseout=colhidden6();>
+				<span><a href="#">下载客户端</a></span>
+			</li>
+			</ul>
+			
+			<div>
+			</div>
+
+			<div class="input">	
+				<input type="text" value="单曲/歌手/专辑/歌单"
+					onclick="if(value=='单曲/歌手/专辑/歌单'){value=''}"
+					onblur="if(value==''){value='单曲/歌手/专辑/歌单'}" />
+				<ul onmouseover=showbox(); onmouseout=hiddenbox();>	
+					<li><a href="#" class="login" onmouseover=showbox(); onmouseout=hiddenbox();>登录</a>	</li>	
+				</ul>
+			</div>
+			<div class="box" id="box" onmouseover=showbox(); onmouseout=hiddenbox();>
+				<ul class="input_ul">
+					<li><a href="#">手机号登录</a></li>
+				</ul>
+				<ul class="input_ul">
+					<li><a href="#">微信登录</a></li>
+				</ul>
+				<ul class="input_ul">
+					<li><a href="#">QQ登录</a></li>
+				</ul>
+				<ul class="input_ul">
+					<li><a href="#">新浪微博登录</a></li>
+				</ul>
+				<ul class="input_ul">
+					<li><a href="#">网易游戏账号登录</a></li>
+				</ul>
+			</div>
+	
+		</div>
+	
+
+	<div class="top2">
+		<ul class="top2_ul">
+			<li class="top2_li1 top2_li"><a href="#">推荐</a></li>
+			<li class="top2_li2 top2_li"><a href="#">排行榜</a></li>
+			<li class="top2_li1 top2_li"><a href="#">歌单</a></li>
+			<li class="top2_li3 top2_li"><a href="#">主播电台</a></li>
+			<li class="top2_li1 top2_li"><a href="#">歌手</a></li>
+			<li class="top2_li3 top2_li"><a href="#">新碟上架</a></li>
+		</ul>	
+	</div>
+	</div>
+	
+	
+	<div class="container">
+            <div class="inner clearfix">
+                <div class="image innerwraper"><img src="./images/1.jpg" alt=""/></div>
+                <div class="image innerwraper"><img src="./images/2.jpg" alt=""/></div>
+                <div class="image innerwraper"><img src="./images/3.jpg" alt=""/></div>
+                <div class="image innerwraper"><img src="./images/1.jpg" alt=""/></div>
+             
+                
+            </div>
+            <div class="pagination">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+
+              
+            </div>
+            <a href="javascript:void(0)" class="left-arrow">&lt;</a>
+            <a href="javascript:void(0)" class="right-arrow">&gt;</a>
+        </div>
+        <script src="./jquery.1.11.3.min.js"></script>
+        <script src="./javascript.js"></script>	
+	
+	<div class="bottom">
+		<ul class="bottom_ul1">
+			<li><span class="dot"></span></li>
+			<li><a href="#" class="recommend">热门推荐</a></li>
+			<li class="li"><span class="span"><a href="#">华语</a></span></li>
+			<li class="li"><span class="span"><a href="#">流行</a></span></li>
+			<li class="li"><span class="span"><a href="#">摇滚</a></span></li>
+			<li class="li"><span class="span"><a href="#">民谣</a></span></li>
+			<li class="li"><span class="span"><a href="#">电子</a></span></li>
+			<li class="more li"><span><a href="#">更多</a></span></li>
+		</ul>
+		
+		<div>
+		<ul class="bottom_ul2">
+			<li>
+				<img alt="图片加载错误" src="./images/g1.jpg">
+				<span></span>
+				<p>他们为她写的歌  轻松hold少女风</p>
+			</li>
+			<li>
+				<img alt="图片加载错误" src="./images/g2.jpg">
+				<span></span>
+				<p>对称|虚实以水面的分离 呈现实体与倒影</p>
+			</li>
+			<li>
+				<img alt="图片加载错误" src="./images/g3.jpg">
+				<span></span>
+				<p>夏了夏天  还你一个天真无邪</p>
+			</li>
+			<li>
+				<img alt="图片加载错误" src="./images/g4.jpg">
+				<span></span>
+				<p>To Julie,From Henrik</p>
+			</li>
+		</ul>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
